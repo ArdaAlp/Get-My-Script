@@ -55,10 +55,22 @@ color:#666;
 }
 
 @media screen and (max-width: 732px) {
-* {
-margin:0.5rem 0;
-}
 body {
 padding:0 2rem;
 }
+}
+
+.list a {
+text-decoration:none;
+}
+
+.list a li {
+list-style:none;
+padding:0.6rem 2rem;
+border:1px solid #c9c9c9;
+margin:0.25rem 0;
+}
+
+.list a li:hover {
+background:#eee;
 }
