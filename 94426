@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+<!-- META TAGS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="author" content="Arda Alp ">
+
+<!-- STYLE SOURCE -->
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/b1d04c92bf.js" crossorigin="anonymous"></script>
+
+<!-- SCRIPT SOURCE (JS + JQUERY) -->
+<script src=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<title>Get My Script</title>
+</head>
+
+<body>
+
+<header>
+<h2>Welcome To</h2><br>
+<h1>GET MY SCRIPT</h1>
+</header>
+
+<div class="container">
+
+<form method="post" action="result.php"> 
+
+<label for="exampleDataList" class="form-label">Search The Script Code</label>
+<div class="row">
+<input type="text" name="scriptname" class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter the script name...">
+<label class="notice"><i>Notice: Please write lowercase</i></label>
+</div>
+<br>
+<div class="row">
+<button onclick="btn()" id="searchBtn" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+</div>
+
+</form>
+
+<br>
+
+<ul class="list-group list-group-flush">
+<h3>SCRİPT'S NAME</h3>
+<li class="list-group-item"><b>1. </b>Font Awesome</li>
+<li class="list-group-item"><b>2. </b>Bootstrap</li>
+<li class="list-group-item"><b>3. </b>Jquery</li>
+</ul>
+
+</div>	
+
+<footer>
+<p>Created By Arda Alp Copyright© Since 2021-2022</p>
+</footer>
+		
+<!-- BOOTSTRAP 5.1 JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>

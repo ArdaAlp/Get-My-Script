@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
+
+/*
+font-family:open sans;
+font-family:source code pro;
+*/
+
+html {
+scroll-behavior:smooth;
+}
+
+* {
+box-sizing:border-box;
+}
+
+body {
+margin:0;
+padding:0 9rem;
+}
+
+header {
+width:100%;
+padding:2rem;
+text-align:center;
+}
+
+header h1 {
+font-family:source code pro;
+font-weight:600;;
+}
+
+header h2 {
+font-family:open sans;
+}
+
+footer {
+width:100%;
+margin-top:2rem;
+text-align:center;
+padding-top:1rem;
+background:#eee;
+border:1px solid #ccc;
+}
+
+.form-control {
+margin:1rem 0;
+}
+
+#input {
+text-transform:capitalize;
+}
+
+.notice {
+color:#666;
+}
+
+@media screen and (max-width: 732px) {
+* {
+margin:0.5rem 0;
+}
+body {
+padding:0 2rem;
+}
+}
