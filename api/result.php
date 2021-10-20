@@ -3,7 +3,7 @@
 $input = $_POST["scriptname"];
 
 if($input != "font awesome" && $input != "bootstrap" && $input != "jquery") {
-header("Location: index.php");
+header("Location: ../index.html");
 
 }
 
