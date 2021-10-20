@@ -51,7 +51,7 @@ Here Your Script
 </div>
 
 <header>
-<a href="index.php"><p>Back to new search...</p></a>
+<a href="../index.html"><p>Back to new search...</p></a>
 </header>
 
 
