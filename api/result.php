@@ -2,9 +2,8 @@
 
 $input = $_POST["scriptname"];
 
-if($input != "font awesome" && $input != "bootstrap" && $input != "jquery") {
-header("Location: ../index.html");
-
+if($input != "vue" && $input != "react" && $input != "angular" && $input != "typescript" && $input != "kotlin" && $input != "font awesome" && $input != "bootstrap" && $input != "jquery") {
+header("Location: error.php");
 }
 
 ?>
@@ -45,15 +44,17 @@ Here Your Script
 <br>
 <div class="row">
 <input type="text" name="scriptname" class="form-control" list="datalistOptions" id="exampleDataList" readonly>
+<textarea type="text" name="scriptname" class="form-control" list="datalistOptions" id="html5" style="display:none;" readonly></textarea>
+
 <button id="button" class="btn btn-primary" onclick="copyScript()"><i class="fas fa-clipboard" id="copyButton"> Copy</i></button>
+
 <div id="bootstrapCssLabel" style="display:none;"><label>CSS:</label><br></div>
 <input type="text" name="scriptname" class="form-control" list="datalistOptions" id="bootstrapCss" style="display:none;" readonly>
 </div>
 
 <header>
-<a href="../index.html"><p>Back to new search...</p></a>
+<a href="index.html"><p>Back to new search...</p></a>
 </header>
-
 
 <footer>
 <p>Created By Arda Alp Copyright© Since 2021-2022</p>
