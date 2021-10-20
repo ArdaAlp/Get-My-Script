@@ -59,7 +59,7 @@ var button = document.getElementById("button");
 var text = textarea;
 text.select();
 document.execCommand("copy");
-buttonText.innerHTML = "Copied"; 
+buttonText.innerHTML = " Copied"; 
 button.style.background = "#19cc54";
 }
 
