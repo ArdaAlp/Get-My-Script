@@ -1,6 +1,8 @@
 # Get My Script
 ### What is the Get My Script?
 
+![Logo](assets/Logo.png)
+
 Get my script is a basic **CDN.**
 Get my script is there to deliver the popular technologys's script codes to you quickly.
 I'm working for upgrade this project and I will add new script codes soon.
