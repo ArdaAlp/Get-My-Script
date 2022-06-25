@@ -3,8 +3,11 @@
 ### What is the Get My Script?
 
 Get my script is a basic **CDN.**
-Get my script is there to deliver the script codes to you quickly.
+Get my script is there to deliver the popular technologys's script codes to you quickly.
 I'm working for upgrade this project and I will add new script codes soon.
+
+You can arrive the project with this link:
+[Get My Script](https://get-my-script.vercel.app/)
 
 If you have a feedback or find a bug you can contact with me.
 
