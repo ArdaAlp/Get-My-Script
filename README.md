@@ -1,5 +1,7 @@
 # Get My Script
 
+(assets/GET MY SCRIPT.png)
+
 ### What is the Get My Script?
 
 Get my script is a basic **CDN.**
