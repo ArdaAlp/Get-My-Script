@@ -1,7 +1,7 @@
 # Get My Script
 ### What is the Get My Script?
 
-<img src="assets/Logo.png" width="200">
+<img src="assets/Logo.png" width="20">
 
 Get my script is a basic **CDN.**
 Get my script is there to deliver the popular technologys's script codes to you quickly.
