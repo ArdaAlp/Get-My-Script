@@ -1,6 +1,6 @@
 # Get My Script
 
-!(assets/GET MY SCRIPT.png)
+![Banner Png](assets/GET MY SCRIPT.png)
 
 ### What is the Get My Script?
 
